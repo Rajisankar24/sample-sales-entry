@@ -1,0 +1,69 @@
+body{
+    margin: auto;
+}
+h1{    
+    color: white;
+    text-align: center;
+    background-color: #00000052;
+    padding-bottom: 10px;
+}
+.headercontainer{
+    display: flex;
+    justify-content: center;
+}
+label{
+    color: #ffffff;
+}
+input{
+    padding: 3px;
+    margin: 2px;
+    border: 2px solid #14cee894;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 121px;
+}
+input:focus{
+    outline: none;
+    border-color: #aa2ecc;
+    box-shadow: 0 0 5px #1c1d1c;
+}
+button{
+    background-color: #a06fad;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #6badd8;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    background-color: #00000052;
+    padding-bottom: 10px;
+}
+.amtBtn{
+    color: white;
+}
+
+.deleteBtn{
+    background-color: #a06fad;
+    color: #ffffff;
+    padding: 10px 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.btncontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.detailcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
